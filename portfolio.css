@@ -54,6 +54,7 @@ body {
 }
 
 .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
   background-color:#e1ffc2;
   text-align: center;
@@ -92,4 +93,26 @@ animation: fadeIn ease 1s;
   .topnav li {
     padding: 10px 10px;
   }
+}
+
+.parallax-1{
+   background-image: url("images/bg1.jpg");
+   background-size: cover;
+   height:500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.second-block{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 15px;
+  height:500px;
+}
+
+.skill-tabs{
+  padding:5px;
+  border-top: 2px solid #092532;
+  border-left: 2px solid #092532;
 }
