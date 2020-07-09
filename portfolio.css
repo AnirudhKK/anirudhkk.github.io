@@ -38,6 +38,7 @@ body {
   color:#e1ffc2;
   font-size: 20px;
   text-decoration: none;
+  transition: font 0.3s ease;
 }
 .topnav a:hover{
   text-decoration:none;
