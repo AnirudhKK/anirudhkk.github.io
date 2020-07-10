@@ -1,80 +1,91 @@
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
+
 body {
   font-family: 'Raleway';
 }
 
 .topnav {
-  width:100%;
-  overflow:hidden;
+  width: 100%;
+  overflow: hidden;
   background-color: #092532;
-  margin:-8px;
-  border-bottom:3px solid #c7e2b2;
+  margin: -8px;
+  border-bottom: 3px solid #c7e2b2;
   margin-bottom: 0px;
 }
 
-.active-navbar{
-  background-color:#3b6978;
-  color:#4ae85a;
+.active-navbar {
+  background-color: #3b6978;
+  color: #4ae85a;
 }
 
-.topnav ul{
+.topnav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline-flex;
 }
+
 .topnav li {
-  width:100%;
-  display:inline;
+  width: 100%;
+  display: inline;
   padding: 20px 20px;
 }
-.topnav a{
-  width:100%;
+
+.topnav a {
+  width: 100%;
   text-align: center;
-  display:block;
-  color:#e1ffc2;
+  display: block;
+  color: #e1ffc2;
   font-size: 20px;
   text-decoration: none;
 }
-.topnav a:hover{
-  text-decoration:none;
-  font-size:25px;
-  background-color:#031721;
-  color:#01a9b4;
+
+.topnav a:hover {
+  text-decoration: none;
+  font-size: 25px;
+  background-color: #031721;
+  color: #01a9b4;
   transition: font 0.3s ease;
 }
 
-.topnav li:hover{
-  background-color:#031721;
-  color:#092532;
+.topnav li:hover {
+  background-color: #031721;
+  color: #092532;
 }
 
 .transparent-opacity {
-  opacity:0.5;
+  opacity: 0.5;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
-  background-color:#e1ffc2;
+  background-color: #e1ffc2;
   text-align: center;
-  margin:auto;
-  padding:30px 10px;
+  margin: auto;
+  padding: 30px 10px;
   padding-bottom: 30px;
 }
+
 @keyframes fadeIn {
-  0%   {opacity: 0;}
-  100% {opacity: 1;}
-}
-.fadeIn {
-animation: fadeIn ease 1s;
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
-.image{
-  overflow:hidden;
+.fadeIn {
+  animation: fadeIn ease 1s;
+}
+
+.image {
+  overflow: hidden;
 }
 
 .first-block {
@@ -88,49 +99,51 @@ animation: fadeIn ease 1s;
   align-content: center;
 }
 
-@media only screen and (max-width:720px){
-  .topnav a{
+@media only screen and (max-width:720px) {
+  .topnav a {
     font-size: 10px;
   }
+
   .topnav li {
     padding: 10px 10px;
   }
 }
 
-.parallax-1{
+.parallax-1 {
   opacity: 0.8;
-  width:100%;
-   background-image: url("images/bg1.jpg");
-   background-size: cover;
-   height:500px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
+  width: 100%;
+  background-image: url("images/bg1.jpg");
+  background-size: cover;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.second-block{
-  width:100%;
-  height:500px;
-  display:grid;
+.second-block {
+  width: 100%;
+  height: 500px;
+  display: grid;
   grid-template-areas: "skillsets card";
   grid-column-gap: 25px;
   justify-content: stretch;
   align-content: stretch;
 }
 
-.skill-set{
+.skill-set {
   height: 200px;
-  display:grid;
+  display: grid;
   grid-template-columns: auto auto auto;
   align-content: stretch;
   justify-content: space-between;
 }
-.skill-tabs{
+
+.skill-tabs {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: white;
-  font-size:35px;
+  font-size: 35px;
   grid-column-gap: 5px;
-  padding:15px;
+  padding: 15px;
   border-top: 2px solid #092532;
   border-left: 2px solid #092532;
   border-right: 2px solid #e1ffc2;
@@ -140,21 +153,47 @@ animation: fadeIn ease 1s;
   align-self: center;
   /*background-image: linear-gradient(141deg, #104057 0%, #104863 51%, #0f5273 75%);*/
 }
-.skill-set > div {
+
+.skill-set>div {
   background-image: url("images/skill-bg.jpg");
   background-size: contain;
 }
 
-.parallax-2{
-
-   background-image: url("images/bg2.jpg");
-   background-size: cover;
-   height:500px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
+.parallax-2 {
+  background-image: url("images/bg2.jpg");
+  background-size: cover;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.form{
+.form {
   text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.form-box {
+  font-size: 25px;
+  margin: 20px auto;
+  width: 65%;
+  height: 35px;
+  display: block;
+}
+
+#submit-button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 25px;
+  background-color: #4CAF50;
+  border-radius: 10px;
+  color: white;
+}
+
+#submit-button:hover {
+  background-color: #45a049;
+}
+
+.third-block {
+  margin-bottom: 30px;
 }

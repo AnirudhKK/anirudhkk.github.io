@@ -66,55 +66,18 @@
   </div>
 
   <div class="third-block" id="contact">
-    <h1 style="text-align:center;font-size:45px;">Contact Me</h1>
+    <h1 style="text-align:center;font-size:45px;margin-top:10px;">Contact Me</h1>
+    <br>
+    <br>
     <div class="form">
       <form name='Contact-Form' action='action_page.php' method=GET>
-        <table width='450px'>
-          <tr>
-            <td>
-              <label for='name'>Name:</label>
-            </td>
-            <td>
-              <input type='text' id='name' name='name' placeholder='Enter your name' REQUIRED><br>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <label for='email'>Email:</label>
-            </td>
-            <td>
-              <input type='email' id='email' name='email' placeholder='Enter your email' REQUIRED><br>
-            </td>
-          </tr>
-
-
-          <tr>
-            <td>
-              <label for='query'>Query related to:</label>
-            </td>
-            <td>
-              <select name='query'>
-                <option value='website' selected>Website</option>
-                <option value='programming'>Programming</option>
-                <option value='other'>Other</option>
-              </select><br>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for='main-query'>Your message:</label>
-            </td>
-            <td>
-              <input type='main-query' id='main-query' name='main-query' placeholder='Your Message:' REQUIRED><br>
-            </td>
-          </tr>
-        </table>
-        <Button type="submit" value="Submit">Submit</button>
-        <Button type="reset" value="Reset">Reset</button>
+        <input type="text" class="form-box" id="name" name="name" placeholder="Your Name" REQUIRED>
+        <input type="email" class="form-box" id="email" name="email" placeholder="Your Email" REQUIRED>
+        <input type="tel" class="form-box" id="mobile" name="mobile" placeholder="Your Mobile No." maxlength=10 pattern="[6-9]{1}[0-9]{9}" REQUIRED>
+        <textarea class="form-box" id="message" name="message" placeholder="Write your message.." style="height:100px;"></textarea>
+        <Button type="submit" id="submit-button" value="Submit">Submit</button>
       </form>
     </div>
   </div>
 </body>
-
 </html>
