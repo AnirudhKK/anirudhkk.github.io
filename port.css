@@ -127,3 +127,24 @@ body, html {
       color:#bbe1fa;
   }
 /*-----------------------------------------CONTACT--------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display: block;
+    }
+    .text-part{
+        height:500px;
+        text-align: start;
+    }
+    .text{
+        top:10%;
+    }
+    .image-part{
+        width:100%;
+        height:auto;     
+    }
+    .image{
+       width:100%;
+    }
+
+}
