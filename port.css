@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+}
+
+.navbar{
+    position: relative;
+    background-color:#1b262c ;
+    overflow: hidden;
+}
+.active{
+    background-color: #0f4c75;
+}
+.navbar a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover{
+    background-color: #0f4c75;
+    font-size: 19px;
+}
+.horizontal{
+    list-style-type: none;
+}
+.navlinks {
+    color:#bbe1fa;
+    text-decoration: none;
+}
+/*-----------------------------------------------NAV BAR PART ABOVE-----------------------------------------------*/
+
+/*-----------------------------------------------HOME-------------------------------------------------------------*/
+.hero-image{
+    height: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://source.unsplash.com/RPnXl6Rpvk0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    position: relative;
+    top:40%;
+    text-align: center;
+    color:#f2f2f2;
+    text-shadow: 0 0 2px white, 0 0 1px #110543;
+}
+.hero-text h1{
+    font-size:65px;
+}
+.hero-text p{
+    font-size:40px;
+}
+/*-----------------------------------------------HOME-------------------------------------------------------------*/
+
+/*-----------------------------------------------ABOUT ME-------------------------------------------------------------*/
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.text-part{
+    position: relative;
+    color:#f2f2f2;
+    background-color: #000101;
+}
+.image-part{
+    position: relative;
+}
+.text{
+    font-size: 27px;
+    text-shadow: 0 0 2px white, 0 0 1px #110543;
+    width: 75%;
+    position: absolute;
+    top:40%;
+    left: 10%;
+}
+.image{
+    height:100%;
+}
