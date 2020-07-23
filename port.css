@@ -129,6 +129,9 @@ body, html {
 /*-----------------------------------------CONTACT--------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
+    .hero-text{
+        top:20%;
+    }
     .container{
         display: block;
     }
