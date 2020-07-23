@@ -137,8 +137,10 @@ body, html {
 
 @media only screen and (max-width: 600px) {
     .hero-text{
-        top:20%;
+        top:10%;
     }
+
+    
     .container{
         display: block;
     }
