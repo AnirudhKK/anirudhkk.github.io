@@ -8,7 +8,7 @@ body, html {
 
 .navbar{
     position: relative;
-    background-color:#1b262c ;
+    background-color:#000101 ;
     overflow: hidden;
 }
 .active{
@@ -25,6 +25,7 @@ body, html {
 .navbar a:hover{
     background-color: #0f4c75;
     font-size: 19px;
+    padding:12.5px 14px;
 }
 .horizontal{
     list-style-type: none;
@@ -49,6 +50,7 @@ body, html {
     text-align: center;
     color:#f2f2f2;
     text-shadow: 0 0 2px white, 0 0 1px #110543;
+    padding-bottom: 5vh;
 }
 .hero-text h1{
     font-size:65px;
