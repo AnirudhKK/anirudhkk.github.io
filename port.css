@@ -61,14 +61,18 @@ body, html {
 /*-----------------------------------------------ABOUT ME-------------------------------------------------------------*/
 .container{
     display: grid;
+    width: 100%;
     grid-template-columns: 50% 50%;
 }
 .text-part{
+    width:100%;
     position: relative;
     color:#f2f2f2;
     background-color: #000101;
 }
 .image-part{
+
+    width: 100%;
     position: relative;
 }
 .text{
@@ -80,7 +84,8 @@ body, html {
     left: 10%;
 }
 .image{
-    height:100%;
+    margin-top: 10vh;
+   width:100%;
 }
 /*---------------------------------------ABOUT ME--------------------------------------------------------------------------*/
 
@@ -147,6 +152,7 @@ body, html {
         height:auto;     
     }
     .image{
+        margin-top: 0;
        width:100%;
     }
 
