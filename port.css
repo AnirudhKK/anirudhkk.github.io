@@ -133,6 +133,20 @@ body, html {
       background-color: #000101;
       color:#bbe1fa;
   }
+  .social{
+      width:100%;
+      display: inline-block;
+      text-align:center;
+  }
+  .social-tab{
+      box-sizing: content-box;
+      margin:25px;
+      text-shadow: 0 0 5px #3282b8;
+  }
+  .social-tab:hover{
+    transform: scale(1.2);
+    text-shadow: 0 0 7px #3282b8;
+  }
 /*-----------------------------------------CONTACT--------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
@@ -140,7 +154,7 @@ body, html {
         top:10%;
     }
 
-    
+
     .container{
         display: block;
     }
