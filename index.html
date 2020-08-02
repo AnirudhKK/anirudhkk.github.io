@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        if (sessionStorage.getItem('dontLoad') == null)
+        {
+        $(document).ready(function() {
+        setTimeout(function(){
+            $('.preloader').addClass('preloader-finish');
+        }, 3000);
+        })
+        sessionStorage.setItem('dontLoad', 'true');
+        };
+    </script>  
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -16,6 +28,9 @@ body {
 </style>
 </head>
 <body>
+    <div class="preloader">
+        <img id="preloader-gif" src="images/loading.gif">
+    </div>
     <div class="navbar">
         <ul class="horizontal">
             <li><a class="navlinks active" href="#">Home</a></li>
@@ -29,5 +44,6 @@ body {
           <h1>I am <b>Anirudh Kumar Kushwaha</b></h1>
           <p>and I'm a <b>Programmer</b></p>
         </div>
-    </div> 
+    </div>
 </body>
+</html>
