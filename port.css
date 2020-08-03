@@ -209,7 +209,7 @@ body, html {
         transform: scale(1.3);
     }
 }
-/* ------------------------------------------------------------------- */
+/* --------------------PRELOADER---------------------------------------------- */
 .preloader{
     height: 100vh;
     width:100%;
@@ -229,4 +229,18 @@ body, html {
 .preloader-finish{
     opacity:0;
     pointer-events: none;
+}
+/* -------------------------------------------- */
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+body{
+    animation: fadeInAnimation ease 0.5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
 }
