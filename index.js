@@ -12,6 +12,7 @@ $(document).ready(function () {
 
 
 function handleMenu() {
+  if (window.matchMedia('(max-width: 860px)').matches) {
   if($("ul").css("display")==="none"){
   $("ul").css("display","flex");
   }
@@ -21,4 +22,5 @@ function handleMenu() {
   
   $( ".hamburger" ).toggle();
   $( ".cross" ).toggle();
+}
 }
