@@ -228,7 +228,6 @@ img.grayscale:hover {
     rgba(1, 1, 3, 1) 0%,
     rgba(61, 55, 55, 1) 100%
   );
-  position: absolute;
 }
 .skillheading {
   display: inline-block;
@@ -238,12 +237,12 @@ img.grayscale:hover {
   top: 10%;
   border-bottom: 2px solid #04c2c9;
 }
-.skills{
-  margin:0 auto;
-  top:15%;
+.skills {
+  margin: 0 auto;
+  top: 15%;
   position: relative;
-  width:90%;
-  height:75%;
+  width: 90%;
+  height: 75%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -252,56 +251,56 @@ img.grayscale:hover {
     "html css javascript bootstrap tailwind"
     "reactjs nodejs express php sql"
     "mongodb java python arduino raspberrypi";
-  }
-  .html{
-    grid-area: html;
-  }
-  .css{
-    grid-area: css;
-  }
-  .javascript{
-    grid-area: javascript;
-  }
-  .bootstrap{
-    grid-area: bootstrap;
-  }
-  .tailwind{
-    grid-area: tailwind;
-  }
-  .reactjs{
-    grid-area: reactjs;
-  }
-  .nodejs{
-    grid-area: nodejs;
-    max-width: 100%;
-   }
-  .express{
-    grid-area: express;
-  }
-  .php{
-    grid-area: php;
-  }
-  .sql{
-    grid-area: sql;
-  }
-  .mongodb{
-    grid-area: mongodb;
-  }
-  .java{
-    grid-area: java;
-  }
-  .python{
-    grid-area: python;
-  }
-  .arduino{
-    grid-area: arduino;
-  }
-  .raspberrypi{
-    grid-area: raspberrypi;
-  }
-  .skill{
-    height: 96px;
-  }
+}
+.html {
+  grid-area: html;
+}
+.css {
+  grid-area: css;
+}
+.javascript {
+  grid-area: javascript;
+}
+.bootstrap {
+  grid-area: bootstrap;
+}
+.tailwind {
+  grid-area: tailwind;
+}
+.reactjs {
+  grid-area: reactjs;
+}
+.nodejs {
+  grid-area: nodejs;
+  max-width: 100%;
+}
+.express {
+  grid-area: express;
+}
+.php {
+  grid-area: php;
+}
+.sql {
+  grid-area: sql;
+}
+.mongodb {
+  grid-area: mongodb;
+}
+.java {
+  grid-area: java;
+}
+.python {
+  grid-area: python;
+}
+.arduino {
+  grid-area: arduino;
+}
+.raspberrypi {
+  grid-area: raspberrypi;
+}
+.skill {
+  height: 96px;
+}
 /* -----------------------SKILLS--------------------------------- */
 
 /* -----------------------CERTIFICATIONS--------------------------------- */
@@ -310,6 +309,61 @@ img.grayscale:hover {
   height: 100vh;
   width: 100%;
   overflow: hidden;
+  text-align: center;
+  transition: height 0.5s ease-in-out;
+}
+.certificatesHeading {
+  display: inline-block;
+  position: relative;
+  top: 10%;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #04c2c9;
+}
+.certificates {
+  margin: 0 auto;
+  position: relative;
+  top: 15%;
+  width: 90%;
+  height: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 20px;
+  grid-template-areas:
+    "cfront crfront dcs"
+    "internshala hps hjava";
+}
+.cfront {
+  grid-area: cfront;
+}
+.crfront {
+  grid-area: crfront;
+}
+.dcs {
+  grid-area: dcs;
+}
+.internshala {
+  grid-area: internshala;
+}
+.hps {
+  grid-area: hps;
+}
+.hjava {
+  grid-area: hjava;
+}
+.certiexpbutton{
+  font-size:1.1rem;
+  margin:1.5rem;
+  padding: 16px 40px;
+  border: none;
+  border:2px solid #04c2c9;
+}
+.certiminbutton{
+  font-size:1.1rem;
+  margin:1.5rem;
+  padding: 16px 40px;
+  border: none;
+  border:2px solid #04c2c9;
 }
 /* -----------------------CERTIFICATIONS--------------------------------- */
 
@@ -339,7 +393,7 @@ img.grayscale:hover {
   .aboutbtn {
     font-size: 1.2rem;
     position: static;
-    border: 2px solid #e31b6d;
+    border: 2px solid #04c2c9;
   }
   .circle {
     display: none;
@@ -366,11 +420,11 @@ img.grayscale:hover {
   .aboutImage img {
     height: 17rem;
   }
-  .skillheading{
+  .skillheading {
     font-size: 2rem;
   }
-  .skills{
-    top:10%;
+  .skills {
+    top: 10%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
@@ -378,17 +432,38 @@ img.grayscale:hover {
     grid-template-areas:
       "html css"
       "javascript reactjs"
-      "nodejs express" 
+      "nodejs express"
       "php raspberrypi"
       "mongodb java"
       "python arduino";
   }
-  .skill{
+  .skill {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
-    height:auto;
-    width:auto;
+    height: auto;
+    width: auto;
+  }
+  .certifications{
+    height: 120vh;
+  }
+  .internshala{
+    display: none;
+  }
+  .hps{
+    display: none;
+  }
+  .hjava{
+    display: none;
+  }
+  .certificatesHeading{
+    font-size: 2rem;
+    top:7%;
+  }
+  .certificates{
+    top:12%;
+    display:flex;
+    flex-direction: column;
   }
 }
 /* ------------------------MEDIA QUERY------------------------ */

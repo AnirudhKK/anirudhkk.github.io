@@ -24,3 +24,28 @@ function handleMenu() {
   $( ".cross" ).toggle();
 }
 }
+
+var isExpanded = false;
+
+function expandCerti() {
+  if(!isExpanded){
+  $(".certifications").css("height","210vh");
+  $(".certiexpbutton").css("display","none");
+  $(".internshala").css("display","block");
+  $(".hps").css("display","block");
+  $(".hjava").css("display","block");
+  $(".certiminbutton").css("display","block");
+  isExpanded=true;
+  }
+}
+function minimiseCerti(){
+  if(isExpanded){
+    $(".certifications").css("height","120vh");
+    $(".certiexpbutton").css("display","block");
+    $(".internshala").css("display","none");
+    $(".hps").css("display","none");
+    $(".hjava").css("display","none");
+    $(".certiminbutton").css("display","none");
+    isExpanded=false;
+  }
+}
