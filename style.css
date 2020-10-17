@@ -245,33 +245,64 @@ img.grayscale:hover {
   width:90%;
   height:75%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 5em 5em;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
   grid-template-areas:
-    "web android"
-    "iot problem";
-}
-.skill{
-  background-color: #04c2c9;
-  border-radius: 1%;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: auto;
-  width: auto;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.skill:hover .overlay {
-  opacity: 1;
-}
+    "html css javascript bootstrap tailwind"
+    "reactjs nodejs express php sql"
+    "mongodb java python arduino raspberrypi";
+  }
+  .html{
+    grid-area: html;
+  }
+  .css{
+    grid-area: css;
+  }
+  .javascript{
+    grid-area: javascript;
+  }
+  .bootstrap{
+    grid-area: bootstrap;
+  }
+  .tailwind{
+    grid-area: tailwind;
+  }
+  .reactjs{
+    grid-area: reactjs;
+  }
+  .nodejs{
+    grid-area: nodejs;
+    max-width: 100%;
+   }
+  .express{
+    grid-area: express;
+  }
+  .php{
+    grid-area: php;
+  }
+  .sql{
+    grid-area: sql;
+  }
+  .mongodb{
+    grid-area: mongodb;
+  }
+  .java{
+    grid-area: java;
+  }
+  .python{
+    grid-area: python;
+  }
+  .arduino{
+    grid-area: arduino;
+  }
+  .raspberrypi{
+    grid-area: raspberrypi;
+  }
+  .skill{
+    height:96px;
+    width:auto;
+  }
 /* -----------------------SKILLS--------------------------------- */
 
 /* -----------------------CERTIFICATIONS--------------------------------- */
@@ -335,6 +366,24 @@ img.grayscale:hover {
   }
   .aboutImage img {
     height: 17rem;
+  }
+  .skillheading{
+    font-size: 2rem;
+  }
+  .skills{
+    top:10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15% 15% 15% 15%;
+    gap: 0px 0px;
+    grid-template-areas:
+      "html css"
+      "javascript reactjs"
+      "nodejs express" 
+      "php sql"
+      "mongodb java"
+      "python arduino"
+      "raspberrypi ." ;
   }
 }
 /* ------------------------MEDIA QUERY------------------------ */
