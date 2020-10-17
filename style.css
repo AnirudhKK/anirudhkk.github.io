@@ -468,5 +468,8 @@ img.grayscale:hover {
     display:flex;
     flex-direction: column;
   }
+  .certiexpbutton{
+    display:block;
+  }
 }
 /* ------------------------MEDIA QUERY------------------------ */
