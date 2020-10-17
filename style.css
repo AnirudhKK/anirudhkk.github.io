@@ -370,6 +370,85 @@ img.grayscale:hover {
 
 /* -----------------------CERTIFICATIONS--------------------------------- */
 
+/* -----------------------CONTACT--------------------------------- */
+.contact{
+  height:100vh;
+  width:100%;
+  overflow: hidden;
+  text-align: center;
+  background: rgb(1, 1, 3);
+  background: linear-gradient(
+    150deg,
+    rgba(1, 1, 3, 1) 0%,
+    rgba(61, 55, 55, 1) 100%
+  );
+}
+.contactheading{
+  display: inline-block;
+  position: relative;
+  top: 10%;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #04c2c9;
+}
+.formpart{
+  margin: 0 auto;
+  position: relative;
+  top:15%;
+  width:60%;
+}
+.inputGroup{
+  margin:15px;
+}
+.inputGroup input,textarea{
+  max-width: 100%;
+  font-family:"Raleway", sans-serif;
+  font-size:2.2rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #d2d2d2;
+  transition: border 0.1s ease-in-out;
+  color: #04c2c9;
+}
+.inputGroup input:hover,textarea:hover{
+  border-bottom: 2px solid #04c2c9;
+}
+.inputGroup input:focus,textarea:focus{
+  border-bottom: 2px solid #04c2c9;
+}
+.submitbtn{
+  margin:15px;
+  background: transparent;
+  font-size:1.5rem;
+  padding: 16px 40px;
+  border: none;
+  border:2px solid #04c2c9;
+  color:#f2f2f2;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.submitbtn:hover{
+box-shadow: 0 0 10px 5px #04c2c9;
+}
+/* -----------------------CONTACT--------------------------------- */
+
+/* -----------------------FOOTER--------------------------------- */
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#f2f2f2;
+  background-color: rgba(1, 1, 3, 0.5);
+  width:100%;
+  position: absolute;
+  height: 70px;
+  margin-top: -70px;
+}
+footer p{
+  font-size:1.2rem;
+  display: inline-block;
+  margin:0 50px;
+}
+/* -----------------------FOOTER--------------------------------- */
+
 /* ------------------------MEDIA QUERY------------------------ */
 @media screen and (max-width: 860px) {
   .colorcircle {
@@ -470,6 +549,15 @@ img.grayscale:hover {
   }
   .certiexpbutton{
     display:block;
+  }
+  .inputGroup input,textarea{
+    font-size: 1.5rem;
+  }
+  .submitbtn{
+    font-size: 1.3rem;
+  }
+  footer p{
+    font-size:0.75rem;
   }
 }
 /* ------------------------MEDIA QUERY------------------------ */
