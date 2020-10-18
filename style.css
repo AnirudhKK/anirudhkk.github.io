@@ -92,7 +92,7 @@ li a:hover:after {
 }
 /* -----------------------HOME--------------------------------- */
 .colorcircle {
-  height: 15rem;
+  height: 30vh;
   opacity: 0.80;
   display: none;
 }
@@ -378,7 +378,7 @@ img.grayscale:hover {
 
 /* -----------------------CONTACT--------------------------------- */
 .contact{
-  height:100vh;
+  height:85vh;
   width:100%;
   overflow: hidden;
   text-align: center;
@@ -444,11 +444,9 @@ footer{
   color:#f2f2f2;
   background-color: rgba(1, 1, 3, 0.5);
   width:100%;
-  position: absolute;
-  height: 70px;
-  margin-top: -70px;
+  height: 15vh;
 }
-footer p{
+footer > p{
   font-size:1.2rem;
   display: inline-block;
   margin:0 50px;
@@ -478,9 +476,6 @@ footer p{
   .jumbotext {
     font-size: 1.5rem;
   }
-  .aboutText{
-    font-size: 1.5rem;
-  }
   .aboutbtn {
     font-size: 1.2rem;
     position: static;
@@ -503,7 +498,7 @@ footer p{
   }
   .aboutText > p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   img.grayscale {
     filter: none;
