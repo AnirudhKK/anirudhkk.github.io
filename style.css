@@ -204,6 +204,7 @@ li a:hover:after {
 .aboutText {
   font-size: 2.5rem;
   margin: 25px;
+  width:65%;
 }
 .aboutImage img {
   border-radius: 50%;
