@@ -202,9 +202,11 @@ li a:hover:after {
   color: #04c2c9;
 }
 .aboutText {
-  font-size: 2.5rem;
   margin: 25px;
   width:65%;
+}
+.aboutText > p{
+  font-size: 2.5rem;
 }
 .aboutImage img {
   border-radius: 50%;
@@ -474,7 +476,10 @@ footer p{
     float: none;
   }
   .jumbotext {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .aboutText{
+    font-size: 1.5rem;
   }
   .aboutbtn {
     font-size: 1.2rem;
@@ -496,7 +501,7 @@ footer p{
     justify-content: center;
     align-items: center;
   }
-  .aboutText {
+  .aboutText > p{
     text-align: center;
     font-size: 1.5rem;
   }
