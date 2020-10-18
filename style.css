@@ -510,11 +510,11 @@ footer p{
     font-size: 2rem;
   }
   .skills {
-    top: 10%;
+    top: 12%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
-    gap: 5px 5px;
+    gap: 0.5rem;
     grid-template-areas:
       "html css"
       "javascript reactjs"
