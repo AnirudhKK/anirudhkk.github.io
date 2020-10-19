@@ -29,7 +29,8 @@ var isExpanded = false;
 
 function expandCerti() {
   if(!isExpanded){
-  $(".certifications").css("height","210vh");
+  $(".certifications").css("height","240vh");
+  $(".certificates").css("height","240vh");
   $(".certiexpbutton").css("display","none");
   $(".internshala").css("display","block");
   $(".hps").css("display","block");
@@ -40,7 +41,8 @@ function expandCerti() {
 }
 function minimiseCerti(){
   if(isExpanded){
-    $(".certifications").css("height","120vh");
+    $(".certifications").css("height","150vh");
+    $(".certificates").css("height","150vh");
     $(".certiexpbutton").css("display","block");
     $(".internshala").css("display","none");
     $(".hps").css("display","none");
