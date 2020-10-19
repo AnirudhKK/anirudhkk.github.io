@@ -406,7 +406,7 @@ img.grayscale:hover {
 .inputGroup input,textarea{
   max-width: 100%;
   font-family:"Raleway", sans-serif;
-  font-size:2.2rem;
+  font-size:1.5rem;
   background: transparent;
   border: none;
   border-bottom: 2px solid #d2d2d2;
@@ -528,7 +528,7 @@ footer > p{
     height: auto;
     width: auto;
   }
-  .certifications, .certificates{
+  .certifications, .certif{
     height: 150vh;
   }
   .internshala{
