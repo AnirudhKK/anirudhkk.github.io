@@ -247,7 +247,7 @@ img.grayscale:hover {
   top: 15%;
   position: relative;
   width: 90%;
-  height: 75%;
+  height: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
