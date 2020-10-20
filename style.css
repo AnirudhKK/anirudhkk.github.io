@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-   font-family: "Montserrat", sans-serif; 
+   font-family: 'Nunito', sans-serif; 
 }
 .navbar {
   height: 3.75rem;
